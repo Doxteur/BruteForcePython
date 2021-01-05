@@ -8,7 +8,7 @@ import re
 numberOfLine = 0
 # Read Line
 
-f = open("../rockyou.txt", "r")
+f = open("mypasswordList.txt", "r")
 
 
 # Setup Link Post request
