@@ -12,7 +12,6 @@ numberOfLine = 0
 
 f = open(linkToWordlist, "r")
 
-
 # Setup Link Post request
 
 url = "http://localhost/SQLlearning/MiniChat/minichat.php"
