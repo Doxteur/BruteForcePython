@@ -6,6 +6,7 @@ import urllib
 # déclaration de variable
 username = input("Give the username : ")
 linkToWordlist = input("Give the link to the wordlist : ")
+url = input("Give the url to the website : ")
 numberOfLine = 0
 
 # Read Line
@@ -14,7 +15,7 @@ f = open(linkToWordlist, "r")
 
 # Setup Link Post request
 
-url = "http://localhost/SQLlearning/MiniChat/minichat.php"
+
 
 headers = {'User-Agent': 'Mozilla/5.0'}
 userPass = {'Username': username, 'Password': " "}
